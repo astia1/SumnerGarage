@@ -1,0 +1,371 @@
+form#feedbackForm {
+  background-color: #eaeaea;
+  border: 2px solid #d6148e;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+h1 {
+  font-size: 1.75em;
+}
+.emph {
+  margin-top: 2px;
+  border-top: 4px solid #2a7997;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+.topban {
+  padding: 0px 0px 0px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #d6078e !important;
+}
+.outbox {
+  background-color: #eaeaea;
+}
+.calbox {
+  background-color: #f4f4f4;
+  padding: 25px;
+  margin: 0 0 20px 0;
+  border-top: 4px solid #2a7997;
+  border-left: 2px solid #ffffff;
+  min-height: 280px;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.callout {
+  border: 2px solid #2a7997;
+  padding: 10px 10px 20px 10px;
+  margin-bottom: 20px;
+}
+
+.pinkcallout {
+  background-color: #eaeaea;
+  border: 2px solid #d6148e;
+  padding: 10px;
+  margin-bottom: 55px;
+}
+
+.pinksurvey {
+  background-color: #eaeaea;
+  border: 2px solid #d6148e;
+}
+
+.gb {
+  color: #ffffff;
+  background-color: #2a7997;
+  padding: 10px 0px 10px 10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.graybox {
+  background-color: #fbfbfb;
+}
+
+.whitebox {
+  background-color: #ffffff;
+  padding: 10px 0px 10px 20px;
+  margin: 10px 0 0 0;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+.entryhead {
+  color: #ffffff;
+  background-color: #2a7997;
+  padding: 10px 0px 10px 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.entry-header {
+  background-color: #2b376e;
+  color: white;
+  width: 100%;
+  padding: 25px 0px 25px 0px;
+  margin: 40px 0px 20px 0px;
+}
+
+.entry-header h2 {
+  font-weight: 900;
+  font-style: italic;
+
+  margin: auto;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+p {
+  font-size: 1.15em;
+}
+st {
+  font-weight: 900;
+}
+.topdiv {
+  background-color: #d9d9d9;
+  padding-top: -20%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.stlogo {
+  padding-left: 10px;
+}
+
+.navbar-toggler {
+  background-color: #d9d9d9;
+}
+
+.pbutton {
+  color: #ffffff !important;
+  background: #d6078e !important;
+}
+
+.blbutton {
+  color: #ffffff !important;
+  background: #d6078e !important;
+  width: 100%;
+  max-width: 190px;
+
+  height: 101px;
+  font-size: 1.2em !important;
+  font-style: italic;
+  font-weight: 900 !important;
+  font-family: "Nunito Sans", Arial, sans-serif !important;
+}
+
+.pbutton a {
+  color: #ffffff !important;
+  text-decoration: none;
+  border-color: #ffffff;
+}
+
+.blbutton a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.navbar-nav a {
+  font-weight: 800;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  color: #505050;
+  font-size: 15px;
+  font-style: italic;
+  margin: -8px 3px -3px 3px;
+}
+
+.dropdown-menu {
+  font-weight: 700;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  color: #2d2d2d;
+  font-size: 16px;
+  font-style: italic;
+}
+.ps {
+  margin-top: -1em;
+}
+.thr {
+  width: 100%;
+  text-align: left;
+  border-top: dashed;
+  border-top-width: thin;
+  outline: none;
+  font-size: 24px;
+  font-style: italic;
+}
+html {
+  scroll-behavior: smooth;
+}
+li {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 1.15em;
+}
+h4 {
+  font-size: 1.35em;
+  font-style: italic;
+  padding-left: 10px;
+}
+.pix {
+  padding: 20px 20px 20px 0px;
+}
+
+.fl {
+  margin-bottom: 0;
+}
+
+.s2 {
+  font-size: 1.75em;
+}
+
+.nm {
+  margin-top: -2px;
+}
+
+.nm2 {
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+p,
+li {
+  font-size: 1em;
+  font-family: Hind, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+.container {
+  max-width: 998px;
+}
+
+.bboxHead {
+  color: #ffffff;
+  background-color: #2b376e;
+  padding: 10px 0px 10px 10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.borderbox {
+  border: 0.5px solid #000000;
+}
+
+.borderbox3 {
+  border: 0.5px solid #000000;
+}
+.bbox {
+  color: #2b376e;
+}
+
+.buttonLinkbox {
+  padding: 0 20px 0 0;
+}
+
+.borderbox2 {
+  background-color: #2b376e;
+  border: 0.5px solid #000000;
+}
+.bo {
+  border: 0.5px solid #8b8b8b;
+}
+.hero {
+  font-family: "Nunito Sans", sans-serif;
+  display: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: #2b376e;
+}
+carousel-indicators {
+  color: #000;
+}
+.accordion {
+  background-color: #ffffff;
+  color: #2a7997;
+  cursor: pointer;
+  /* padding: 18px; */
+  width: 100%;
+  text-align: left;
+  border-bottom: dashed;
+  border-bottom-width: thin;
+  outline: none;
+  margin-top: -10px;
+  scroll-margin-top: 200px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  /* padding: 0 18px; */
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  transition: max-height 02.2s ease-out;
+}
+
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  float: right;
+  margin-left: 5px;
+}
+.accordion {
+  background-color: #ffffff;
+  color: #2a7997;
+  cursor: pointer;
+  /* padding: 18px; */
+  width: 100%;
+  text-align: left;
+  border-bottom: dashed;
+  border-bottom-width: thin;
+  outline: none;
+  margin-top: -10px;
+  scroll-margin-top: 200px;
+  font-size: 24px;
+  font-style: italic;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #f8f8f8;
+  color: #2a7897;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  /* padding: 0 18px; */
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  transition: max-height 02.2s ease-out;
+}
+
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  float: right;
+  margin-left: 5px;
+}
+.bk {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.s5 {
+  max-height: 150px;
+}
+.s400 {
+  max-width: 400px;
+}
+.det1 {
+  border-top: 1px dashed rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+}
+.det2 {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+}
+.sum-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 20px;
+}
+.plus {
+  color: rgba(0, 0, 0, 0.5);
+  float: right;
+}
