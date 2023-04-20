@@ -369,3 +369,6 @@ carousel-indicators {
   padding-top: 15px;
   font-size: 38px;
 }
+html {
+  scroll-padding-top: 5rem;
+}
