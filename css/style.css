@@ -105,11 +105,6 @@ h3 {
   margin: auto;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-
-p {
-  font-size: 1.15em;
-}
 st {
   font-weight: 900;
 }
@@ -222,7 +217,7 @@ h4 {
 
 p,
 li {
-  font-size: 1em;
+  font-size: 1.1em;
   font-family: Hind, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 .container {
@@ -270,6 +265,7 @@ a:hover,
 a:focus,
 a:active {
   color: #2b376e;
+  font-size: 18px;
 }
 carousel-indicators {
   color: #000;
@@ -368,4 +364,8 @@ carousel-indicators {
 .plus {
   color: rgba(0, 0, 0, 0.5);
   float: right;
+}
+.headhead {
+  padding-top: 15px;
+  font-size: 38px;
 }
