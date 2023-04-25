@@ -190,9 +190,10 @@ li {
   font-size: 1.15em;
 }
 h4 {
-  font-size: 1.35em;
+  font-size: 1em;
   font-style: italic;
-  padding-left: 10px;
+  padding: 0 0 0 10px;
+  margin: 0;
 }
 .pix {
   padding: 20px 20px 20px 0px;
