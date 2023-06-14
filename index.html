@@ -149,7 +149,7 @@
         </script> -->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0">
     <header id="mainheader">
       <div class="topbar">
         <div class="container">
@@ -193,8 +193,9 @@
     </header>
 
     <div class="topdiv sticky-top">
+      <progress id="progressbar" value="0" max="100"></progress>
       <nav class="navbar navbar-expand-sm bg-transparent py-0 sticky-top">
-        <div class="container">
+          <div class="container">
           <button
             class="navbar-toggler"
             type="button"
@@ -206,7 +207,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <nav class="collapse navbar-collapse top_nav scrollspy_row" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#overview"
@@ -237,7 +238,7 @@
                 ></a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </nav>
     </div>
