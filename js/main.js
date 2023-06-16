@@ -56,8 +56,8 @@ for (i = 0; i < acc.length; i++) {
       var currLink = jQuery(this);
       var refElement = jQuery(currLink.attr("href"));
       if (
-        refElement.offset().top - 200 <= scrollPos &&
-        refElement.offset().top + refElement.height() > scrollPos
+        refElement.offset().top - 100 <= scrollPos &&
+        (refElement.offset().top -100) + refElement.height() > scrollPos
       ) {
         jQuery("#menu-center ul li a").removeClass("active");
         currLink.addClass("active");

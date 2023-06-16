@@ -419,10 +419,11 @@ nav.top_nav a.active:before {
   transform: scaleX(1);
 }
 
-/* 
-.active {
-  color: #2a7997;
-} */
+
+a.active {
+  background: transparent;
+
+}
 .nulx {
   text-decoration: underline;
 }
