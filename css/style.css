@@ -1,3 +1,14 @@
+:root {
+  --nav-link-color: #505050;
+}
+
+a.nav-link,
+a.nav-link:visited
+  {
+  color: var(--nav-link-color);
+}
+
+
 form#feedbackForm {
   background-color: #eaeaea;
   border: 2px solid #d6148e;
@@ -465,3 +476,4 @@ progress::-moz-progress-bar {
 progress {
   color: #2a7997;
 }
+
