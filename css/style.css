@@ -477,3 +477,6 @@ progress {
   color: #2a7997;
 }
 
+.container {
+  padding: 0 2rem;
+}
