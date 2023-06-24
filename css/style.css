@@ -492,3 +492,7 @@ progress {
   width: 100%;
   padding: .5rem 2rem;
 }
+h1.sg-title {
+  display: none;
+}
+
