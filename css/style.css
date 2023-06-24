@@ -478,6 +478,21 @@ progress {
 }
 
 .container {
-  padding-left: 2rem;
+  padding-left: 1rem;
+}
+
+
+.carousel-image-container {
+  position: relative;
+}
+.carousel-caption {
+  bottom: 1rem;
+}
+.carousel-content {
+  width: 100%;
+  padding: .5rem 2rem;
+}
+h1.sg-title {
+  display: none;
 }
 
