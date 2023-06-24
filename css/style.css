@@ -481,3 +481,14 @@ progress {
   padding-left: 2rem;
 }
 
+
+.carousel-image-container {
+  position: relative;
+}
+.carousel-caption {
+  bottom: 1rem;
+}
+.carousel-content {
+  width: 100%;
+  padding: .5rem 2rem;
+}
