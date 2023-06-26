@@ -1,3 +1,12 @@
+:root {
+  --nav-link-color: #505050;
+}
+
+a.nav-link,
+a.nav-link:visited {
+  color: var(--nav-link-color);
+}
+
 form#feedbackForm {
   background-color: #eaeaea;
   border: 2px solid #d6148e;
@@ -372,4 +381,123 @@ carousel-indicators {
 }
 html {
   scroll-padding-top: 5%;
+}
+
+/* ==== Styling added from omf-south for the progress bar and nav links ==== */
+
+nav.top_nav {
+  text-align: center;
+  font-size: 0em;
+  margin-bottom: 10px;
+}
+
+nav.top_nav li {
+  display: inline;
+}
+
+nav.top_nav a {
+  display: inline-block;
+  position: relative;
+  color: var(--nav-link-color);
+}
+
+nav.top_nav a:hover {
+  color: #2a7997;
+}
+
+nav.top_nav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -1px;
+  left: 0;
+  background-color: #2a7997;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+nav.top_nav a:hover:before,
+nav.top_nav a.active:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+a.active {
+  background: transparent;
+}
+.nulx {
+  text-decoration: underline;
+}
+
+#progressbar {
+  vertical-align: top;
+  width: 100%;
+  height: 7px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+  width: 100%;
+}
+
+/* background: */
+progress::-webkit-progress-bar {
+  background-color: btransparent;
+  width: 100%;
+}
+
+progress {
+  background-color: btransparent;
+}
+
+/* value: */
+progress::-webkit-progress-value {
+  background-color: #2a7997 !important;
+}
+
+progress::-moz-progress-bar {
+  background-color: #2a7997 !important;
+}
+
+progress {
+  color: #2a7997;
+}
+
+.container {
+  padding-left: 1rem;
+}
+
+.carousel-image-container {
+  position: relative;
+}
+.carousel-caption {
+  bottom: 1rem;
+}
+.carousel-content {
+  width: 100%;
+  padding: 0.5rem 2rem;
+}
+h1.sg-title {
+  display: none;
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+label::before {
+
+  left: -8px !important;
+  border-radius: 100%;
+  padding-left: 5px;
 }
