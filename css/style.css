@@ -3,11 +3,9 @@
 }
 
 a.nav-link,
-a.nav-link:visited
-  {
+a.nav-link:visited {
   color: var(--nav-link-color);
 }
-
 
 form#feedbackForm {
   background-color: #eaeaea;
@@ -385,9 +383,7 @@ html {
   scroll-padding-top: 5%;
 }
 
-
 /* ==== Styling added from omf-south for the progress bar and nav links ==== */
-
 
 nav.top_nav {
   text-align: center;
@@ -431,10 +427,8 @@ nav.top_nav a.active:before {
   transform: scaleX(1);
 }
 
-
 a.active {
   background: transparent;
-
 }
 .nulx {
   text-decoration: underline;
@@ -482,7 +476,6 @@ progress {
   padding-left: 1rem;
 }
 
-
 .carousel-image-container {
   position: relative;
 }
@@ -491,15 +484,20 @@ progress {
 }
 .carousel-content {
   width: 100%;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
 }
 h1.sg-title {
   display: none;
 }
 
-
-
 main {
   width: 100%;
   overflow-x: hidden;
+}
+
+label::before {
+
+  left: -8px !important;
+  border-radius: 100%;
+  padding-left: 5px;
 }
