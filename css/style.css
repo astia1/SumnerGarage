@@ -402,6 +402,7 @@ nav.top_nav li {
 nav.top_nav a {
   display: inline-block;
   position: relative;
+  color: var(--nav-link-color);
 }
 
 nav.top_nav a:hover {
