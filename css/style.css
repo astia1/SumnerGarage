@@ -496,8 +496,9 @@ h1.sg-title {
   display: none;
 }
 
-body,
-html {
+
+
+main {
   width: 100%;
   overflow-x: hidden;
 }
