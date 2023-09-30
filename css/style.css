@@ -498,6 +498,5 @@ main {
 label::before {
 
   left: -8px !important;
-  border-radius: 100%;
   padding-left: 5px;
 }
