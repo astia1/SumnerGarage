@@ -563,3 +563,6 @@ figure {
 .sg-survey-form label::before {
   padding-left: 10px;
 }
+.sg-survey-form label {
+  font-weight: inherit;
+}
