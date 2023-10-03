@@ -197,7 +197,7 @@ html {
 }
 li {
   font-family: "Nunito Sans", Arial, sans-serif;
-  font-size: 1.15em;
+
 }
 h4 {
   font-size: 1em;
@@ -228,8 +228,14 @@ h4 {
 
 p,
 li {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-family: Hind, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.leady {
+  font-size: 1.4em;
+  color: #5a5a5a;
+  font-weight: 700;
 }
 .container {
   max-width: 998px;
@@ -480,7 +486,7 @@ progress {
   position: relative;
 }
 .carousel-caption {
-  bottom: 1rem;
+  /* display: none !important; */
 }
 .carousel-content {
   width: 100%;
@@ -499,4 +505,29 @@ label::before {
 
   left: -8px !important;
   padding-left: 5px;
+}
+
+/* --- Adds border radius to all the callout boxes ---  */
+h3.gb {
+  font-size: 1.3em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.callout {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+figure {
+  border-radius: 5px;
+}
+
+.footer-header {
+  font-size: 1.5rem;
+}
+
+.maintain-ratio {
+  object-fit: contain;
+  min-width: 80px;
 }

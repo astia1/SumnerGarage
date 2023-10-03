@@ -197,13 +197,6 @@ svg:not(:root) {
 /* Grouping content
    ========================================================================== */
 
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
-
-figure {
- 
-}
 
 /**
  * Address differences between Firefox and other browsers.
