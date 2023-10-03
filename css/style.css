@@ -1,3 +1,26 @@
+:root {
+  --nav-link-color: #505050;
+
+    --wave-blue: #2b376e;
+    --wave-teal: #2a7997;
+    --dark-teal: #007297;
+    --wave-green: #008281;
+    --railway-gray: #5a5a5a;
+    --highway-gray: #787878;
+    --service-gray: #aaaaaa;
+    --roadway-gray: #d9d9d9;
+    --land-gray: #f0f0f0;
+    --line-pink: #d6078e;
+    --action-orange: #F38B00;
+
+  
+}
+
+a.nav-link,
+a.nav-link:visited {
+  color: var(--nav-link-color);
+}
+
 form#feedbackForm {
   background-color: #eaeaea;
   border: 2px solid #d6148e;
@@ -56,6 +79,7 @@ button {
 .pinksurvey {
   background-color: #eaeaea;
   border: 2px solid #d6148e;
+  border-radius: 5px;
 }
 
 .gb {
@@ -188,7 +212,7 @@ html {
 }
 li {
   font-family: "Nunito Sans", Arial, sans-serif;
-  font-size: 1.15em;
+
 }
 h4 {
   font-size: 1em;
@@ -219,8 +243,14 @@ h4 {
 
 p,
 li {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-family: Hind, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.leady {
+  font-size: 1.4em;
+  color: #5a5a5a;
+  font-weight: 700;
 }
 .container {
   max-width: 998px;
@@ -351,19 +381,19 @@ carousel-indicators {
   max-width: 400px;
 }
 .det1 {
-  border-top: 1px dashed rgba(0, 0, 0, 0.3);
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  border-top: 1px dashed var(--wave-teal);
+  border-bottom: 1px dashed var(--wave-teal);
 }
 .det2 {
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dashed var(--wave-teal);
 }
 .sum-text {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--wave-teal);
   font-weight: bold;
   font-size: 20px;
 }
 .plus {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--wave-teal);
   float: right;
 }
 .headhead {
@@ -372,4 +402,164 @@ carousel-indicators {
 }
 html {
   scroll-padding-top: 5%;
+}
+
+/* ==== Styling added from omf-south for the progress bar and nav links ==== */
+
+nav.top_nav {
+  text-align: center;
+  font-size: 0em;
+  margin-bottom: 10px;
+}
+
+nav.top_nav li {
+  display: inline;
+}
+
+nav.top_nav a {
+  display: inline-block;
+  position: relative;
+  color: var(--nav-link-color);
+}
+
+nav.top_nav a:hover {
+  color: #2a7997;
+}
+
+nav.top_nav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -1px;
+  left: 0;
+  background-color: #2a7997;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+nav.top_nav a:hover:before,
+nav.top_nav a.active:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+a.active {
+  background: transparent;
+}
+.nulx {
+  text-decoration: underline;
+}
+
+#progressbar {
+  vertical-align: top;
+  width: 100%;
+  height: 7px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+  width: 100%;
+}
+
+/* background: */
+progress::-webkit-progress-bar {
+  background-color: btransparent;
+  width: 100%;
+}
+
+progress {
+  background-color: btransparent;
+}
+
+/* value: */
+progress::-webkit-progress-value {
+  background-color: #2a7997 !important;
+}
+
+progress::-moz-progress-bar {
+  background-color: #2a7997 !important;
+}
+
+progress {
+  color: #2a7997;
+}
+
+.container {
+  padding-left: 1rem;
+}
+
+.carousel-image-container {
+  position: relative;
+}
+.carousel-caption {
+  /* display: none !important; */
+}
+.carousel-content {
+  width: 100%;
+  padding: 0.5rem 2rem;
+}
+h1.sg-title {
+  display: none;
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+label::before {
+
+  left: -8px !important;
+  padding-left: 5px;
+}
+
+/* --- Adds border radius to all the callout boxes ---  */
+h3.gb {
+  font-size: 1.3em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.callout {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+figure {
+  border-radius: 5px;
+}
+
+.footer-header {
+  font-size: 1.5rem;
+}
+
+.maintain-ratio {
+  object-fit: contain;
+  min-width: 80px;
+}
+
+.no-style,
+.no-style ul {
+  list-style: none;
+
+}
+.no-style ul {
+  padding-left: 0;
+}
+
+.sg-survey-form {
+  border-radius: 8px;
+}
+
+.sg-survey-form label::before {
+  padding-left: 10px;
 }
