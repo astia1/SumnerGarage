@@ -1159,6 +1159,27 @@ textarea {
   }
 }
 
+.urgent-banner {
+  background-color: var(--action-orange);
+  padding: 1.5rem 0;
+}
+.urgent-banner a {
+  color: inherit;
+}
+.urgent-banner:hover a {
+  text-decoration: none;
+}
+
+.urgent-text {
+  font-size: 20px;
+}
+
+.urgent-text::after {
+  content: " >>";
+}
+
+
+
 @media screen and (min-width: 768px) {
   header#mainheader h1.pagetitle {
     /* margin-top: 31px; */

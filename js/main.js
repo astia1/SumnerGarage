@@ -135,3 +135,25 @@ const observer = new MutationObserver(function (mutationsList) {
 carouselItems.forEach((item) => {
   observer.observe(item, { attributes: true });
 });
+
+
+// Listens on every <details> element to be clicked
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all the <details> elements on the page
+  const detailsElements = document.querySelectorAll('details');
+
+  // Add a toggle event listener to each <details> element
+  detailsElements.forEach(function(detail) {
+      detail.addEventListener('toggle', function() {
+          // Get the <span> with the class "plus" inside the current <details>
+          const spanPlus = this.querySelector('.plus');
+
+          // Check if the <details> is open or closed and update the <span> content accordingly
+          if (this.open) {
+              spanPlus.textContent = '- ';
+          } else {
+              spanPlus.textContent = '+ ';
+          }
+      });
+  });
+});
