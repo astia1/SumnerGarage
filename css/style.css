@@ -380,6 +380,12 @@ carousel-indicators {
 .s400 {
   max-width: 400px;
 }
+.s500 {
+  max-width: 500px;
+}
+.s600 {
+  max-width: 600px;
+}
 .det1 {
   border-top: 1px dashed var(--wave-teal);
   border-bottom: 1px dashed var(--wave-teal);
