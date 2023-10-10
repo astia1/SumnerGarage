@@ -572,3 +572,9 @@ figure {
 .sg-survey-form label {
   font-weight: inherit;
 }
+.sg-page-description,
+.sg-body ol,
+.sg-body ul,
+.sg-body p {
+  font-size: 1.2rem !important;
+}
