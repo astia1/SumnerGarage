@@ -578,3 +578,7 @@ figure {
 .sg-body p {
   font-size: 1.2rem !important;
 }
+
+ul.no-style li:not(:first-child, li ul li) {
+  margin-top: .5rem;
+}
