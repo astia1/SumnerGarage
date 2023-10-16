@@ -582,3 +582,14 @@ figure {
 ul.no-style li:not(:first-child, li ul li) {
   margin-top: .5rem;
 }
+
+.skip-nav-link {
+  position: absolute;
+  transform: translateY(-120%);
+  transition: transform 325ms ease-in;
+}
+
+.skip-nav-link:focus {
+  transform: translateY(20%);
+}
+
