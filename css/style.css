@@ -506,9 +506,9 @@ progress {
 .carousel-image-container {
   position: relative;
 }
-.carousel-caption {
-  /* display: none !important; */
-}
+/* .carousel-caption {
+  display: none !important;
+} */
 .carousel-content {
   width: 100%;
   padding: 0.5rem 2rem;
