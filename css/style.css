@@ -585,6 +585,7 @@ ul.no-style li:not(:first-child, li ul li) {
 
 .skip-nav-link {
   position: absolute;
+  left: 1rem;
   transform: translateY(-120%);
   transition: transform 325ms ease-in;
 }
