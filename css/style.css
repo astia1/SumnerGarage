@@ -594,3 +594,8 @@ ul.no-style li:not(:first-child, li ul li) {
   transform: translateY(20%);
 }
 
+body.close-out {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
