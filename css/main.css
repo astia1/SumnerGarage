@@ -292,8 +292,8 @@ header#mainheader {
 header#mainheader h1.pagetitle {
   color: white;
   font-size: 33px;
-  margin-top: 10px;
-  margin-bottom: 0;
+  /* margin-top: 10px; */
+  /* margin-bottom: 0; */
 }
 
 header#mainheader span.subtitle {
@@ -437,7 +437,7 @@ button:hover,
 /* ==========================================================================
 Media queries
    ========================================================================== */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 768px) {
   header#mainheader h1.pagetitle {
     font-size: 25px;
   }
@@ -1159,9 +1159,30 @@ textarea {
   }
 }
 
+.urgent-banner {
+  background-color: var(--action-orange);
+  padding: 1.5rem 0;
+}
+.urgent-banner a {
+  color: inherit;
+}
+.urgent-banner:hover a {
+  text-decoration: none;
+}
+
+.urgent-text {
+  font-size: 20px;
+}
+
+.urgent-text::after {
+  content: " >>";
+}
+
+
+
 @media screen and (min-width: 768px) {
   header#mainheader h1.pagetitle {
-    margin-top: 31px;
+    /* margin-top: 31px; */
   }
 }
 
